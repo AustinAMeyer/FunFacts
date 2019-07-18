@@ -15,6 +15,7 @@
 		26F5E14222DBDFB0007C36DC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F5E14122DBDFB0007C36DC /* main.m */; };
 		26F5E14C22DBDFB0007C36DC /* FunFactsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F5E14B22DBDFB0007C36DC /* FunFactsTests.m */; };
 		26F5E15722DBDFB0007C36DC /* FunFactsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F5E15622DBDFB0007C36DC /* FunFactsUITests.m */; };
+		26F5E16622E01E86007C36DC /* FactBook.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F5E16522E01E86007C36DC /* FactBook.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		26F5E15222DBDFB0007C36DC /* FunFactsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FunFactsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		26F5E15622DBDFB0007C36DC /* FunFactsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FunFactsUITests.m; sourceTree = "<group>"; };
 		26F5E15822DBDFB0007C36DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26F5E16422E01E86007C36DC /* FactBook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FactBook.h; sourceTree = "<group>"; };
+		26F5E16522E01E86007C36DC /* FactBook.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FactBook.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				26F5E13322DBDFAE007C36DC /* AppDelegate.m */,
 				26F5E13522DBDFAE007C36DC /* ViewController.h */,
 				26F5E13622DBDFAE007C36DC /* ViewController.m */,
+				26F5E16422E01E86007C36DC /* FactBook.h */,
+				26F5E16522E01E86007C36DC /* FactBook.m */,
 				26F5E13822DBDFAE007C36DC /* Main.storyboard */,
 				26F5E13B22DBDFB0007C36DC /* Assets.xcassets */,
 				26F5E13D22DBDFB0007C36DC /* LaunchScreen.storyboard */,
@@ -264,6 +269,7 @@
 			files = (
 				26F5E13722DBDFAE007C36DC /* ViewController.m in Sources */,
 				26F5E14222DBDFB0007C36DC /* main.m in Sources */,
+				26F5E16622E01E86007C36DC /* FactBook.m in Sources */,
 				26F5E13422DBDFAE007C36DC /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -435,7 +441,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3P59VN3UQ4;
 				INFOPLIST_FILE = FunFacts/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -443,6 +451,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Austin.Meyer.FunFacts;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -451,7 +460,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3P59VN3UQ4;
 				INFOPLIST_FILE = FunFacts/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -459,6 +470,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Austin.Meyer.FunFacts;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
