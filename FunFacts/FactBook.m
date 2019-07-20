@@ -8,13 +8,14 @@
 
 #import "FactBook.h"
 
+
 @implementation FactBook
 
 - (instancetype)init
 {
     self = [super init];
     if (self) {
-        _facts = [[NSArray alloc]initWithObjects:
+        _facts = [[NSArray alloc] initWithObjects:
                   @"Ants stretch when they wake up.",
                   @"Ostriches run faster than horses.",
                   @"Olympic gold medals are actually made mostly of silver.",
@@ -30,4 +31,10 @@
     return self;
 }
 
+- (NSString *)randomFact {
+    int random = arc4random_uniform((int)self.facts.count);
+    return [self.facts objectAtIndex:random];
+}
+
 @end
+

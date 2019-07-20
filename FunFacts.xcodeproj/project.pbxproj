@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		26300A7B22E3A4CF00495BB7 /* ColorWheel.m in Sources */ = {isa = PBXBuildFile; fileRef = 26300A7A22E3A4CF00495BB7 /* ColorWheel.m */; };
 		26F5E13422DBDFAE007C36DC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F5E13322DBDFAE007C36DC /* AppDelegate.m */; };
 		26F5E13722DBDFAE007C36DC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F5E13622DBDFAE007C36DC /* ViewController.m */; };
 		26F5E13A22DBDFAE007C36DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26F5E13822DBDFAE007C36DC /* Main.storyboard */; };
@@ -36,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		26300A7922E3A4CF00495BB7 /* ColorWheel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColorWheel.h; sourceTree = "<group>"; };
+		26300A7A22E3A4CF00495BB7 /* ColorWheel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorWheel.m; sourceTree = "<group>"; };
 		26F5E12F22DBDFAE007C36DC /* FunFacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunFacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		26F5E13222DBDFAE007C36DC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		26F5E13322DBDFAE007C36DC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -115,6 +118,8 @@
 				26F5E13D22DBDFB0007C36DC /* LaunchScreen.storyboard */,
 				26F5E14022DBDFB0007C36DC /* Info.plist */,
 				26F5E14122DBDFB0007C36DC /* main.m */,
+				26300A7922E3A4CF00495BB7 /* ColorWheel.h */,
+				26300A7A22E3A4CF00495BB7 /* ColorWheel.m */,
 			);
 			path = FunFacts;
 			sourceTree = "<group>";
@@ -271,6 +276,7 @@
 				26F5E14222DBDFB0007C36DC /* main.m in Sources */,
 				26F5E16622E01E86007C36DC /* FactBook.m in Sources */,
 				26F5E13422DBDFAE007C36DC /* AppDelegate.m in Sources */,
+				26300A7B22E3A4CF00495BB7 /* ColorWheel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
